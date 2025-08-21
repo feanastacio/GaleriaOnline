@@ -15,7 +15,6 @@ public partial class GaleriaOnlineDbContext : DbContext
         : base(options)
     {
     }
-
     public virtual DbSet<Imagem> Imagens { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
