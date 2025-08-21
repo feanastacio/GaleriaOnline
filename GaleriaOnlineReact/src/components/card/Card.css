@@ -1,0 +1,22 @@
+.cardDaImagem{
+    gap: 10px;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+    background-color: white;
+}
+
+.icons{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgDoCard{
+    width: 200px;
+    height: 200px;
+}
