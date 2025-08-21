@@ -14,6 +14,7 @@ public partial class GaleriaOnlineDbContext : DbContext
     public GaleriaOnlineDbContext(DbContextOptions<GaleriaOnlineDbContext> options)
         : base(options)
     {
+
     }
 
     public virtual DbSet<Imagem> Imagens { get; set; }
