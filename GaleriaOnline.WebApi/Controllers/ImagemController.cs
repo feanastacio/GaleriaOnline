@@ -149,7 +149,7 @@ namespace GaleriaOnline.WebApi.Controllers
                     return StatusCode(500, $"Erro ao excluir o arquivo:{ex.Message}");
                 }
             }
-
+                
             var deletado = await _repository.DeleteAsync(id);
             if (!deletado)
             {
