@@ -4,7 +4,28 @@
   box-sizing:border-box; 
 }
 
-body{
+/* body{
   background-color: #b9a2ce;
   font-family: "JetBrains Mono", monospace;
+} */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #8c63b4, #9a74bc, #b894d8);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  font-family: "JetBrains Mono", monospace;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

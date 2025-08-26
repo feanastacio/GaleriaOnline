@@ -1,5 +1,5 @@
 .tituloGaleria{
-    color: #4e2866;
+    color: #e8d3f6;
     font-size: 50px;
     font-weight: 300;
     text-align: center;
@@ -24,7 +24,7 @@
 
 .inputNome, .arquivoLabel{
     border: none;
-    background-color: white;
+    background-color: #f7ebff;
 
     width: 100%;
     height: 40px;
@@ -35,7 +35,7 @@
 }
 
 .campoNome label{
-    color: #4e2866;
+    color: #e8d3f6;
 }
 
 .arquivoInput{
